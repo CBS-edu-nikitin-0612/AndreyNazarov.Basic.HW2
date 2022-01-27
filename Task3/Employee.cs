@@ -29,16 +29,12 @@ namespace Task3
             {
                 case Position.PurchaseManager when experience > 1:
                     return 100 * 1.2;
-                    break;
                 case Position.PurchaseManager when experience > 5:
                     return 100 * 1.5;
-                    break;
                 case Position.Accountant when experience > 1:
                     return 100 * 1.1;
-                    break;
                 default:
                     return 100;
-                    break;
             }
         }
 
